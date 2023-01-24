@@ -1,5 +1,6 @@
 ---
-# need a storage class definition here I think
+# we need a user from cluster-admin or storage-admin to create the storageClass
+# per https://docs.openshift.com/container-platform/3.11/install_config/persistent_storage/dynamically_provisioning_pvs.html#defining-storage-classes
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
